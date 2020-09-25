@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
     &-item {
         display: flex;
         justify-content: space-between;
@@ -15,6 +16,7 @@
         color: $gray;
         transition: 0.3s ease;
         font-weight: 500;
+        letter-spacing: 0.062rem;
         &:hover {
             color: $orange;
         }

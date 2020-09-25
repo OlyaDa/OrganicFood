@@ -54,7 +54,7 @@ body {
 .main {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
+    align-items: center;
     &-text {
         flex: 0 0 40%;
         &__description {
@@ -62,6 +62,20 @@ body {
             line-height: 1.5;
             margin-top: 3.68rem;
             margin-bottom: 4.75rem;
+        }
+    }
+    &-visual {
+        box-shadow: 0 0 0 22px transparent, 0 0 0 1px rgba($gray, $alpha);
+        border-radius: 100%;
+        padding: 55px;
+        &__image {
+            border: 1px solid rgba($gray, $alpha);
+            border-radius: 100%;
+            padding: 21px;
+            img {
+                border-radius: 100%;
+                box-shadow: 15px 48px 42px 0px rgba($gray, $alpha);
+            }
         }
     }
 }
